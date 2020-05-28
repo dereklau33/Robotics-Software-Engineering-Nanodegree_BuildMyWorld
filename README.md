@@ -43,7 +43,6 @@ Create a workspace:
 ```bash
 $ mkdir -p /home/workspace/catkin_ws/src
 $ cd /home/workspace/catkin_ws/src
-$ catkin_init_workspace
 ```   
 
 Clone this git repository in src:    
@@ -53,6 +52,7 @@ git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree
 
 Build package:  
 ```bash
+$ cd /home/workspace/catkin_ws
 source devel/setup.bash
 catkin_make
 ```
