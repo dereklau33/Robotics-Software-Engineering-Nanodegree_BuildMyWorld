@@ -15,6 +15,7 @@ Pick a place where you want to deploy your robot, for example: your apartment, y
 5. Write a C++ World Plugin to interact with your world. Your code should display “Welcome to ’s World!” message as soon as you launch the Gazebo world file.  
 
 # Project Requirements
+ROS Kinetic
 Gazebo >= 7.0  
 
 # Project Setup
